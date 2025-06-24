@@ -1,0 +1,121 @@
+[
+  {
+    "id": 2,
+    "title": "Sudadera Roja Clásica",
+    "price": 1000,
+    "description": "Eleva tu guardarropa casual con nuestra Sudadera Roja Clásica con Capucha. Fabricada con una mezcla suave de algodón para una comodidad óptima, esta sudadera vibrante tiene un bolsillo canguro, capucha ajustable con cordón y puños acanalados para un ajuste cómodo. Su diseño atemporal garantiza un emparejamiento fácil con jeans o pantalones deportivos para un look relajado pero elegante.",
+    "image": "https://i.imgur.com/1twoaDy.jpeg"
+  },
+  {
+    "id": 3,
+    "title": "Sudadera Gris Heather Clásica",
+    "price": 6900,
+    "description": "Mantente cómodo y elegante con nuestra Sudadera Gris Heather Clásica. Fabricada con tela suave y duradera, cuenta con un bolsillo canguro, capucha ajustable con cordón y puños acanalados. Perfecta para un día casual o una noche relajada, esta sudadera es una pieza versátil para cualquier armario.",
+    "image": "https://i.imgur.com/cHddUCu.jpeg"
+  },
+  {
+    "id": 4,
+    "title": "Sudadera Gris Clásica",
+    "price": 9000,
+    "description": "Eleva tu estilo casual con nuestra Sudadera con Capucha Gris Clásica. Hecha de una mezcla suave de algodón, esta sudadera presenta un bolsillo frontal canguro, una capucha ajustable con cordón y puños acanalados para un ajuste seguro. Ideal para las noches frías o los fines de semana relajados, combina sin esfuerzo con tus jeans o pantalones deportivos favoritos.",
+    "image": "https://i.imgur.com/R2PN9Wq.jpeg"
+  },
+  {
+    "id": 5,
+    "title": "Sudadera Negra Clásica",
+    "price": 7900,
+    "description": "Eleva tu guardarropa casual con nuestra Sudadera Negra Clásica con Capucha. Fabricada con tejido de alta calidad y suave, esta sudadera ofrece comodidad y durabilidad, perfecta para uso diario. Cuenta con un bolsillo canguro amplio y una capucha ajustable con cordón. Su diseño versátil la hace ideal para usar en casa o salir a pasear de forma relajada.",
+    "image": "https://i.imgur.com/cSytoSD.jpeg"
+  },
+  {
+    "id": 6,
+    "title": "Pantalones Deportivos Clásicos",
+    "price": 2500,
+    "description": "Descubre la combinación perfecta entre estilo y comodidad con nuestros Pantalones Deportivos Clásicos Ajustados. Estos versátiles pantalones negros cuentan con una cintura elástica suave con cordón ajustable, dos bolsillos laterales y dobladillos acanalados para un ajuste seguro. Fabricados con tela ligera y duradera, son ideales tanto para días activos como para descansar tranquilamente.",
+    "image": "https://i.imgur.com/ZKGofuB.jpeg"
+  },
+  {
+    "id": 7,
+    "title": "Pantalones Deportivos con Cordón",
+    "price": 7900,
+    "description": "Experimenta la combinación perfecta de comodidad y estilo con nuestros Pantalones Deportivos Clásicos con Cordón. Diseñados para un ajuste relajado, estos pantalones presentan una tela elástica y suave, prácticos bolsillos laterales y una cintura ajustable con cordón con detalles en dorado. Ideales para estar en casa o hacer recados, estos pantalones se convertirán rápidamente en tus favoritos para un uso casual y sin esfuerzo.",
+    "image": "https://i.imgur.com/mp3rUty.jpeg"
+  },
+  {
+    "id": 8,
+    "title": "Pantalones Jogger Rojos Clásicos",
+    "price": 9800,
+    "description": "Experimenta la máxima comodidad con nuestros pantalones jogger rojos, perfectos tanto para sesiones de entrenamiento como para relajarte en casa. Fabricados con tela suave y duradera, estos pantalones tienen un cinturón ajustable, cordón regulable y prácticos bolsillos laterales. Su diseño cónico y los dobladillos elásticos ofrecen un corte moderno que te hará lucir elegante mientras estás en movimiento.",
+    "image": "https://i.imgur.com/9LFjwpI.jpeg"
+  },
+  {
+    "id": 9,
+    "title": "Gorra Clásica Azul Marino",
+    "price": 6100,
+    "description": "Sal a la calle con estilo con esta gorra clásica azul marino. Fabricada con material duradero, tiene un diseño estructurado y suave y una correa ajustable para un ajuste perfecto. Protege tus ojos del sol y complementa tus looks casuales con este accesorio versátil y atemporal.",
+    "image": "https://i.imgur.com/R3iobJA.jpeg"
+  },
+  {
+    "id": 10,
+    "title": "Gorra Clásica Azul",
+    "price": 8600,
+    "description": "Completa tu look casual con nuestra Gorra Clásica Azul, fabricada con materiales de alta calidad para una comodidad duradera. Con un diseño de seis paneles con visera curva, esta gorra ajustable ofrece estilo y practicidad para usar todos los días.",
+    "image": "https://i.imgur.com/wXuQ7bm.jpeg"
+  },
+  {
+    "id": 11,
+    "title": "Gorra Clásica Roja",
+    "price": 3500,
+    "description": "Eleva tu guardarropa casual con esta gorra roja atemporal. Fabricada con tela resistente, ofrece un ajuste cómodo gracias a la correa ajustable en la parte trasera, asegurando que sirva para cualquier tamaño. Perfecta para días soleados o para añadir un toque deportivo a tu conjunto.",
+    "image": "https://i.imgur.com/cBuLvBi.jpeg"
+  },
+  {
+    "id": 12,
+    "title": "Gorra Clásica Negra",
+    "price": 5800,
+    "description": "Eleva tu estilo casual con esta gorra negra atemporal. Fabricada con tela de alta calidad y transpirable, ofrece una correa ajustable para un ajuste perfecto. Ya sea que estés saliendo a correr o solo haciendo recados, esta gorra agrega un toque de estilo a cualquier conjunto.",
+    "image": "https://i.imgur.com/KeqG6r4.jpeg"
+  },
+  {
+    "id": 13,
+    "title": "Shorts Clásicos Olive Chino",
+    "price": 8400,
+    "description": "Eleva tu guardarropa casual con estos shorts clásicos Olive Chino. Diseñados para comodidad y versatilidad, tienen una cintura suave, bolsillos prácticos y un corte entallado que los hace perfectos para fines de semana relajados o ocasiones semiforales. La tela duradera asegura que resistan tus actividades diarias manteniendo siempre un look elegante.",
+    "image": "https://i.imgur.com/UsFIvYs.jpeg"
+  },
+  {
+    "id": 14,
+    "title": "Shorts Atléticos de Cintura Alta",
+    "price": 4300,
+    "description": "Mantente cómoda y a la moda con nuestros Shorts Atléticos de Cintura Alta Clásicos. Diseñados para movimiento máximo y versatilidad, estos shorts son imprescindibles en tu armario deportivo. Con una cintura alta favorecedora, tela transpirable y un ajuste seguro que permanece en su lugar durante cualquier actividad, son ideales para el gimnasio, correr o incluso para uso casual.",
+    "image": "https://i.imgur.com/eGOUveI.jpeg"
+  },
+  {
+    "id": 16,
+    "title": "Camiseta Blanca Clásica",
+    "price": 7300,
+    "description": "Eleva tu armario diario con nuestra Camiseta Blanca Clásica. Fabricada con material suave de algodón premium, esta camiseta versátil combina comodidad con durabilidad, perfecta para uso diario. Con un corte relajado y unisex que favorece a todo tipo de cuerpo, es una prenda básica para cualquier conjunto casual. Fácil de cuidar y apta para lavadora, esta camiseta blanca mantiene su forma y suavidad lavado tras lavado. Combínala con tus jeans favoritos o úsala debajo de una chaqueta para un look elegante.",
+    "image": "https://i.imgur.com/Y54Bt8J.jpeg"
+  },
+  {
+    "id": 17,
+    "title": "Camiseta Negra Clásica",
+    "price": 3500,
+    "description": "Eleva tu estilo diario con nuestra Camiseta Negra Clásica. Esta prenda básica está hecha de algodón suave y transpirable para una comodidad todo el día. Su diseño versátil incluye un cuello redondo clásico y mangas cortas, ideal para usar sola o como base para superposiciones. Duradera y fácil de cuidar, se convertirá rápidamente en una favorita de tu armario.",
+    "image": "https://i.imgur.com/9DqEOV5.jpeg"
+  },
+  {
+    "id": 18,
+    "title": "Mando Inalámbrico Gaming",
+    "price": 6900,
+    "description": "Eleva tu experiencia de juego con este mando inalámbrico de última generación, con una base blanca impecable y detalles en naranja vibrante. Diseñado para un juego preciso, su forma ergonómica y botones responsivos ofrecen máxima comodidad y control durante horas interminables de diversión. Compatible con múltiples plataformas de juegos, este mando es un imprescindible para cualquier jugador serio que quiera mejorar su setup.",
+    "image": "https://i.imgur.com/ZANVnHE.jpeg"
+  },
+  {
+    "id": 19,
+    "title": "Audífonos Inalámbricos Elegantes",
+    "price": 4400,
+    "description": "Experimenta la fusión de estilo y sonido con este sofisticado conjunto compuesto por unos audífonos inalámbricos blancos con sonido cristalino y comodidad sobre las orejas. El conjunto también incluye unos auriculares resistentes, perfectos para una vida dinámica. Eleva tu disfrute musical con este dúo versátil, diseñado para satisfacer todas tus necesidades auditivas.",
+    "image": "https://i.imgur.com/yVeIeDa.jpeg"
+  }
+]
