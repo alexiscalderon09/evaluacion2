@@ -62,19 +62,47 @@ async function submitFormulario(event) {
 }
 
 function validarImage() {
-    image.classList.replace('is-invalid', 'is-valid')
+    const imageValue = image.value.trim();
+    if (!imageValue || !imageValue.startsWith('http')) {
+        image.classList.replace('is-valid', 'is-invalid');
+        image.setCustomValidity('Ingrese una URL válida que comience con http');
+    } else {
+        image.classList.replace('is-invalid', 'is-valid');
+        image.setCustomValidity('');
+    }
 }
 
 function validarTitulo() {
-    titulo.classList.replace('is-invalid', 'is-valid')
+    const tituloValue = titulo.value.trim();
+    if (!tituloValue || tituloValue.length < 3) {
+        titulo.classList.replace('is-valid', 'is-invalid');
+        titulo.setCustomValidity('El título debe tener al menos 3 caracteres');
+    } else {
+        titulo.classList.replace('is-invalid', 'is-valid');
+        titulo.setCustomValidity('');
+    }
 }
 
 function validarDescripcion() {
-    descripcion.classList.replace('is-invalid', 'is-valid')
+    const descripcionValue = descripcion.value.trim();
+    if (!descripcionValue) {
+        descripcion.classList.replace('is-valid', 'is-invalid');
+        descripcion.setCustomValidity('La descripción es requerida');
+    } else {
+        descripcion.classList.replace('is-invalid', 'is-valid');
+        descripcion.setCustomValidity('');
+    }
 }
 
 function validarPrecio() {
-    precio.classList.replace('is-invalid', 'is-valid')
+    const precioValue = precio.value;
+    if (!precioValue || precioValue < 10) {
+        precio.classList.replace('is-valid', 'is-invalid');
+        precio.setCustomValidity('El precio debe ser mayor a 10');
+    } else {
+        precio.classList.replace('is-invalid', 'is-valid');
+        precio.setCustomValidity('');
+    }
 }
 
 formulario.addEventListener('submit', submitFormulario);
