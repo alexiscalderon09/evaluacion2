@@ -17,7 +17,9 @@ const productos = [];
 async function cargarProductos() {
     const response = await fetch('productos.json')
     const data = await response.json()
-
+    
+    seccionProductos.innerHTML = ''
+    
     productos.push(...data);
     productos.forEach((producto) => {
         seccionProductos.innerHTML += card(producto);
@@ -25,7 +27,7 @@ async function cargarProductos() {
     })
 }
 
-function submitFormulario(event) {
+async function submitFormulario(event) {
     event.preventDefault();
 
     const isInvalidElements = event.target.getElementsByClassName('is-invalid')
@@ -43,24 +45,36 @@ function submitFormulario(event) {
         "image": this.image.value
     }
 
-    console.log(producto);
     instance.hide();
+    productos.push(producto)
+    seccionProductos.innerHTML += card(producto);
+    seccionProductos.innerHTML += modal(producto);
+
+    image.value = ''
+    titulo.value = ''
+    descripcion.value = ''
+    precio.value = ''
+
+    validarImage()
+    validarTitulo()
+    validarDescripcion()
+    validarPrecio()
 }
 
-function validarImage(event) {
-    event.target.classList.replace('is-invalid', 'is-valid')
+function validarImage() {
+    image.classList.replace('is-invalid', 'is-valid')
 }
 
-function validarTitulo(event) {
-    event.target.classList.replace('is-invalid', 'is-valid')
+function validarTitulo() {
+    titulo.classList.replace('is-invalid', 'is-valid')
 }
 
-function validarDescripcion(event) {
-    event.target.classList.replace('is-invalid', 'is-valid')
+function validarDescripcion() {
+    descripcion.classList.replace('is-invalid', 'is-valid')
 }
 
-function validarPrecio(event) {
-    event.target.classList.replace('is-invalid', 'is-valid')
+function validarPrecio() {
+    precio.classList.replace('is-invalid', 'is-valid')
 }
 
 formulario.addEventListener('submit', submitFormulario);
