@@ -1,5 +1,5 @@
-import { card } from './card.js';
-import { modal } from "./modal.js";
+import {card} from './card.js';
+import {modal} from "./modal.js";
 
 const seccionProductos = document.getElementById('seccionProductos');
 const modalAgregarProductos = document.getElementById('modalAgregarProducto')
@@ -17,9 +17,9 @@ const productos = [];
 async function cargarProductos() {
     const response = await fetch('productos.json')
     const data = await response.json()
-    
+
     seccionProductos.innerHTML = ''
-    
+
     productos.push(...data);
     productos.forEach((producto) => {
         seccionProductos.innerHTML += card(producto);
@@ -38,7 +38,7 @@ async function submitFormulario(event) {
     }
 
     const producto = {
-        "id": productos.length + 1,
+        "id": Math.max(...productos.map(producto => producto.id)) + 1,
         "title": this.titulo.value,
         "price": parseInt(this.precio.value),
         "description": this.descripcion.value,
@@ -46,9 +46,9 @@ async function submitFormulario(event) {
     }
 
     instance.hide();
-    productos.push(producto)
     seccionProductos.innerHTML += card(producto);
     seccionProductos.innerHTML += modal(producto);
+    productos.push(producto)
 
     image.value = ''
     titulo.value = ''
